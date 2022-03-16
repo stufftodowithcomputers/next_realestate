@@ -29,7 +29,7 @@ export async function getServerSideProps({ query }) {
     }
 }
 
-const search = ({ properties }) => {
+const Search = ({ properties }) => {
     const [filters, setFilters] = useState(false);
     const router = useRouter();
 
@@ -66,4 +66,4 @@ const search = ({ properties }) => {
     );
 };
 
-export default search;
+export default Search;
